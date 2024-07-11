@@ -76,6 +76,7 @@ public class UserController {
       return new ResponseEntity<>("User successfully deleted" , HttpStatus.OK);
     }
 
+    //it is for testing
    @GetMapping("v1")
     public  String TestApi(){
         return "ok";
